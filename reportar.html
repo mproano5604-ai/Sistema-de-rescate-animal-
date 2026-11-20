@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar Animal</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Regresar</a></li>
+        </ul>
+    </nav>
+   
+    <br>
+    
+     Por favor, complete el siguiente formulario para reportar un animal que necesite rescate. Asegúrese de proporcionar información precisa y detallada para que podamos ayudar de la mejor manera posible.
+    <br>
+    <br>
+    <br>
+
+    <form action="procesar_reporte.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        <br>
+        <label for="especie">Especie:</label>
+        <input type="text" id="especie" name="especie" required>
+        <br>
+        <label for="descripcion">Descripción:</label>
+       <textarea id="descripcion" name="descripcion" required></textarea>
+        <br>
+        <label for="salud">Estado de salud:</label>
+        <textarea id="salud" name="salud" required></textarea>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" value="Reportar">
+        <input type="reset" value="Limpiar">
+    </form>
+
+</body>
+</html>
