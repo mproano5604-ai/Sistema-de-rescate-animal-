@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Regresar</a></li>
+    </nav>
+ 
+<p>
+    Por Favor, complete el siguiente formulario para rescatar una mascota. Asegúrese de proporcionar información precisa y detallada para que podamos ayudar de la mejor manera posible.
+</p>
+
+
+<form action="procesar_reporte.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+       <label for="Fecha">Fecha:</label>
+        <input type="date" id="Fecha" name="Fecha" required>
+        <br>
+        
+        <br>
+        <label for="Ubicacion;">Ubicación:</label>
+       <textarea id="descripcion" name="Ubicacion" required></textarea>
+        <br>
+        <label for="salud">Descripcion de la zona de rescate:</label>
+        <textarea id="salud" name="salud" required></textarea>
+        <br>
+        <br>
+
+<input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+
+</body>
+</html>
